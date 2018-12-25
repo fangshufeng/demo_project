@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ThumbnailViewController.h
 //  SimpleDemo
 //
 //  Created by fangshufeng on 2018/12/25.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface ThumbnailViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

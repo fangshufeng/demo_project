@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8DCAB27021D21355005EF6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB26F21D21355005EF6D8 /* AppDelegate.m */; };
-		8DCAB27321D21355005EF6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB27221D21355005EF6D8 /* ViewController.m */; };
+		8DCAB27321D21355005EF6D8 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB27221D21355005EF6D8 /* CanvasViewController.m */; };
 		8DCAB27621D21355005EF6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAB27421D21355005EF6D8 /* Main.storyboard */; };
 		8DCAB27821D21356005EF6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAB27721D21356005EF6D8 /* Assets.xcassets */; };
 		8DCAB27B21D21356005EF6D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAB27921D21356005EF6D8 /* LaunchScreen.storyboard */; };
 		8DCAB27E21D21356005EF6D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB27D21D21356005EF6D8 /* main.m */; };
 		8DCAB28821D21356005EF6D8 /* SimpleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB28721D21356005EF6D8 /* SimpleDemoTests.m */; };
 		8DCAB29321D21356005EF6D8 /* SimpleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB29221D21356005EF6D8 /* SimpleDemoUITests.m */; };
+		8DCAB2AA21D216ED005EF6D8 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB2A821D216ED005EF6D8 /* ThumbnailViewController.m */; };
+		8DCAB2AB21D216ED005EF6D8 /* ThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAB2A921D216ED005EF6D8 /* ThumbnailViewController.xib */; };
+		8DCAB2AF21D216FE005EF6D8 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB2AD21D216FE005EF6D8 /* PaletteViewController.m */; };
+		8DCAB2B021D216FE005EF6D8 /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAB2AE21D216FE005EF6D8 /* PaletteViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,8 @@
 		8DCAB26B21D21355005EF6D8 /* SimpleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCAB26E21D21355005EF6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DCAB26F21D21355005EF6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8DCAB27121D21355005EF6D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8DCAB27221D21355005EF6D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DCAB27121D21355005EF6D8 /* CanvasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		8DCAB27221D21355005EF6D8 /* CanvasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 		8DCAB27521D21355005EF6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DCAB27721D21356005EF6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DCAB27A21D21356005EF6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		8DCAB28E21D21356005EF6D8 /* SimpleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCAB29221D21356005EF6D8 /* SimpleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDemoUITests.m; sourceTree = "<group>"; };
 		8DCAB29421D21356005EF6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCAB2A721D216ED005EF6D8 /* ThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
+		8DCAB2A821D216ED005EF6D8 /* ThumbnailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
+		8DCAB2A921D216ED005EF6D8 /* ThumbnailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThumbnailViewController.xib; sourceTree = "<group>"; };
+		8DCAB2AC21D216FE005EF6D8 /* PaletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		8DCAB2AD21D216FE005EF6D8 /* PaletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
+		8DCAB2AE21D216FE005EF6D8 /* PaletteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,9 @@
 		8DCAB26D21D21355005EF6D8 /* SimpleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8DCAB2A021D21479005EF6D8 /* ViewController */,
 				8DCAB26E21D21355005EF6D8 /* AppDelegate.h */,
 				8DCAB26F21D21355005EF6D8 /* AppDelegate.m */,
-				8DCAB27121D21355005EF6D8 /* ViewController.h */,
-				8DCAB27221D21355005EF6D8 /* ViewController.m */,
 				8DCAB27421D21355005EF6D8 /* Main.storyboard */,
 				8DCAB27721D21356005EF6D8 /* Assets.xcassets */,
 				8DCAB27921D21356005EF6D8 /* LaunchScreen.storyboard */,
@@ -130,6 +139,21 @@
 				8DCAB29421D21356005EF6D8 /* Info.plist */,
 			);
 			path = SimpleDemoUITests;
+			sourceTree = "<group>";
+		};
+		8DCAB2A021D21479005EF6D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8DCAB27121D21355005EF6D8 /* CanvasViewController.h */,
+				8DCAB27221D21355005EF6D8 /* CanvasViewController.m */,
+				8DCAB2A721D216ED005EF6D8 /* ThumbnailViewController.h */,
+				8DCAB2A821D216ED005EF6D8 /* ThumbnailViewController.m */,
+				8DCAB2A921D216ED005EF6D8 /* ThumbnailViewController.xib */,
+				8DCAB2AC21D216FE005EF6D8 /* PaletteViewController.h */,
+				8DCAB2AD21D216FE005EF6D8 /* PaletteViewController.m */,
+				8DCAB2AE21D216FE005EF6D8 /* PaletteViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +262,8 @@
 				8DCAB27B21D21356005EF6D8 /* LaunchScreen.storyboard in Resources */,
 				8DCAB27821D21356005EF6D8 /* Assets.xcassets in Resources */,
 				8DCAB27621D21355005EF6D8 /* Main.storyboard in Resources */,
+				8DCAB2B021D216FE005EF6D8 /* PaletteViewController.xib in Resources */,
+				8DCAB2AB21D216ED005EF6D8 /* ThumbnailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCAB27321D21355005EF6D8 /* ViewController.m in Sources */,
+				8DCAB27321D21355005EF6D8 /* CanvasViewController.m in Sources */,
 				8DCAB27E21D21356005EF6D8 /* main.m in Sources */,
 				8DCAB27021D21355005EF6D8 /* AppDelegate.m in Sources */,
+				8DCAB2AA21D216ED005EF6D8 /* ThumbnailViewController.m in Sources */,
+				8DCAB2AF21D216FE005EF6D8 /* PaletteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
