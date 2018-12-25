@@ -18,6 +18,7 @@
     [super viewDidLoad];
     Foo *bar  = [[Foo alloc] init];
     
+    NSProxy;
     [bar performSelector:@selector(test)];
 }
 
