@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "NoLockCode.h"
+#import "OSSpinLockDemo.h"
 
 @interface ViewController ()
 
@@ -19,8 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NoLockCode *code = [[NoLockCode alloc] init];
+    NoLockCode *code = [[OSSpinLockDemo alloc] init];
     [code testCode];
+
 
 }
 

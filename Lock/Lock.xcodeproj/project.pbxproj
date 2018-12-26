@@ -16,6 +16,7 @@
 		8DCAB32121D36CF0005EF6D8 /* LockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB32021D36CF0005EF6D8 /* LockTests.m */; };
 		8DCAB32C21D36CF0005EF6D8 /* LockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB32B21D36CF0005EF6D8 /* LockUITests.m */; };
 		8DCAB33B21D37B6D005EF6D8 /* NoLockCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB33A21D37B6D005EF6D8 /* NoLockCode.m */; };
+		8DCAB33F21D380A4005EF6D8 /* OSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB33E21D380A4005EF6D8 /* OSSpinLockDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8DCAB32D21D36CF0005EF6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DCAB33A21D37B6D005EF6D8 /* NoLockCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoLockCode.m; sourceTree = "<group>"; };
 		8DCAB33C21D37EF5005EF6D8 /* NoLockCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoLockCode.h; sourceTree = "<group>"; };
+		8DCAB33D21D380A4005EF6D8 /* OSSpinLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo.h; sourceTree = "<group>"; };
+		8DCAB33E21D380A4005EF6D8 /* OSSpinLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8DCAB31621D36CF0005EF6D8 /* main.m */,
 				8DCAB33C21D37EF5005EF6D8 /* NoLockCode.h */,
 				8DCAB33A21D37B6D005EF6D8 /* NoLockCode.m */,
+				8DCAB33D21D380A4005EF6D8 /* OSSpinLockDemo.h */,
+				8DCAB33E21D380A4005EF6D8 /* OSSpinLockDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */,
+				8DCAB33F21D380A4005EF6D8 /* OSSpinLockDemo.m in Sources */,
 				8DCAB33B21D37B6D005EF6D8 /* NoLockCode.m in Sources */,
 				8DCAB31721D36CF0005EF6D8 /* main.m in Sources */,
 				8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */,
