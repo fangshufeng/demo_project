@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "NoLockCode.h"
+
 @interface ViewController ()
 
 @end
@@ -16,8 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
+    NoLockCode *code = [[NoLockCode alloc] init];
+    [code testCode];
+
 }
+
+
 
 
 @end
