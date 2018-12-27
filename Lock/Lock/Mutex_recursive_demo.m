@@ -22,7 +22,7 @@
 
         pthread_mutexattr_t att ;
         pthread_mutexattr_init(&att);
-        pthread_mutexattr_settype(&att, PTHREAD_MUTEX_DEFAULT);
+        pthread_mutexattr_settype(&att, PTHREAD_MUTEX_RECURSIVE);
         
         pthread_mutex_init(&_lock, &att);
         
