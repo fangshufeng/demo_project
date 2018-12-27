@@ -11,6 +11,7 @@
 #import "NoLockCode.h"
 #import "OSSpinLockDemo.h"
 #import "OSUnfairLockDemo.h"
+#import "MutexDemo.h"
 
 @interface ViewController ()
 
@@ -21,9 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NoLockCode *code = [[OSSpinLockDemo alloc] init];
+    NoLockCode *code = [[MutexDemo alloc] init];
     [code testCode];
-
 
 }
 

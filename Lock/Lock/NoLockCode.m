@@ -58,7 +58,7 @@
 - (void)reduceCount {
     
     int preCount = self.totalCount;
-    sleep(600);
+    sleep(.2);
     self.totalCount = --preCount ;
     
     NSLog(@"---now value : %d---%@",self.totalCount,[NSThread currentThread]);

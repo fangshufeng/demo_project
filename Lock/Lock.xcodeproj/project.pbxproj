@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D21C80021D4736F00F50969 /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C7FF21D4736F00F50969 /* OSUnfairLockDemo.m */; };
+		8D21C80321D481C700F50969 /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C80221D481C700F50969 /* MutexDemo.m */; };
 		8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30821D36CEF005EF6D8 /* AppDelegate.m */; };
 		8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30B21D36CEF005EF6D8 /* ViewController.m */; };
 		8DCAB30F21D36CEF005EF6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAB30D21D36CEF005EF6D8 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		8D21C7FE21D4736F00F50969 /* OSUnfairLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSUnfairLockDemo.h; sourceTree = "<group>"; };
 		8D21C7FF21D4736F00F50969 /* OSUnfairLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSUnfairLockDemo.m; sourceTree = "<group>"; };
+		8D21C80121D481C700F50969 /* MutexDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo.h; sourceTree = "<group>"; };
+		8D21C80221D481C700F50969 /* MutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
 		8DCAB30421D36CEF005EF6D8 /* Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCAB30721D36CEF005EF6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DCAB30821D36CEF005EF6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				8DCAB33E21D380A4005EF6D8 /* OSSpinLockDemo.m */,
 				8D21C7FE21D4736F00F50969 /* OSUnfairLockDemo.h */,
 				8D21C7FF21D4736F00F50969 /* OSUnfairLockDemo.m */,
+				8D21C80121D481C700F50969 /* MutexDemo.h */,
+				8D21C80221D481C700F50969 /* MutexDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D21C80321D481C700F50969 /* MutexDemo.m in Sources */,
 				8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */,
 				8DCAB33F21D380A4005EF6D8 /* OSSpinLockDemo.m in Sources */,
 				8D21C80021D4736F00F50969 /* OSUnfairLockDemo.m in Sources */,
