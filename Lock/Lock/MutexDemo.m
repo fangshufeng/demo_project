@@ -19,8 +19,27 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        // 直接初始化
-        pthread_mutex_init(&_lock, NULL);
+        // 1.直接初始化 是第二种方案的简写
+//        pthread_mutex_init(&_lock, NULL);
+        
+        // 2.带参数的初始化
+        pthread_mutexattr_t att ;
+        /*
+         * Mutex type attributes
+         */
+        //    #define PTHREAD_MUTEX_NORMAL        0  // 默认的
+        //    #define PTHREAD_MUTEX_ERRORCHECK    1
+        //    #define PTHREAD_MUTEX_RECURSIVE        2  //递归锁
+        //    #define PTHREAD_MUTEX_DEFAULT        PTHREAD_MUTEX_NORMAL
+        pthread_mutexattr_init(&att);
+        pthread_mutexattr_settype(&att, PTHREAD_MUTEX_DEFAULT);
+        
+        pthread_mutex_init(&_lock, &att);
+        
+        //销毁pthread_mutexattr_t
+        pthread_mutexattr_destroy(&att);
+        
+        
     }
     return self;
 }

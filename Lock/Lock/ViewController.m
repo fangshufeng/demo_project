@@ -24,6 +24,11 @@
 
     NoLockCode *code = [[MutexDemo alloc] init];
     [code testCode];
+    
+    
+    NSLock;
+    NSRecursiveLock;
+    NSConditionLock;
 
 }
 
