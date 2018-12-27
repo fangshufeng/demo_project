@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /*
- *
+ * 是互斥锁
  * 是OSSpinLock的替代品 线程等待的本质是调用了syscall（休眠）而不是忙等,汇编代码如下
  
  libsystem_kernel.dylib`__ulock_wait:
