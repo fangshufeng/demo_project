@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D21C80021D4736F00F50969 /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C7FF21D4736F00F50969 /* OSUnfairLockDemo.m */; };
 		8D21C80321D481C700F50969 /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C80221D481C700F50969 /* MutexDemo.m */; };
+		8D21C80621D4B42400F50969 /* Mutex_recursive_demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C80521D4B42400F50969 /* Mutex_recursive_demo.m */; };
 		8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30821D36CEF005EF6D8 /* AppDelegate.m */; };
 		8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30B21D36CEF005EF6D8 /* ViewController.m */; };
 		8DCAB30F21D36CEF005EF6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAB30D21D36CEF005EF6D8 /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 		8D21C7FF21D4736F00F50969 /* OSUnfairLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSUnfairLockDemo.m; sourceTree = "<group>"; };
 		8D21C80121D481C700F50969 /* MutexDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo.h; sourceTree = "<group>"; };
 		8D21C80221D481C700F50969 /* MutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
+		8D21C80421D4B42400F50969 /* Mutex_recursive_demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mutex_recursive_demo.h; sourceTree = "<group>"; };
+		8D21C80521D4B42400F50969 /* Mutex_recursive_demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mutex_recursive_demo.m; sourceTree = "<group>"; };
 		8DCAB30421D36CEF005EF6D8 /* Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCAB30721D36CEF005EF6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DCAB30821D36CEF005EF6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				8D21C7FF21D4736F00F50969 /* OSUnfairLockDemo.m */,
 				8D21C80121D481C700F50969 /* MutexDemo.h */,
 				8D21C80221D481C700F50969 /* MutexDemo.m */,
+				8D21C80421D4B42400F50969 /* Mutex_recursive_demo.h */,
+				8D21C80521D4B42400F50969 /* Mutex_recursive_demo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				8DCAB33B21D37B6D005EF6D8 /* NoLockCode.m in Sources */,
 				8DCAB31721D36CF0005EF6D8 /* main.m in Sources */,
 				8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */,
+				8D21C80621D4B42400F50969 /* Mutex_recursive_demo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

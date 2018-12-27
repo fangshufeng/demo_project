@@ -11,6 +11,8 @@
 @interface NoLockCode : NSObject
 
 - (void)testCode;
+- (void)otherTest;
+
 - (void)reduceCount;
 
 @end

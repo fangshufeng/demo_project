@@ -55,6 +55,10 @@
 //
 }
 
+- (void)otherTest {
+    
+}
+
 - (void)reduceCount {
     
     int preCount = self.totalCount;

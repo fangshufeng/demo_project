@@ -12,6 +12,7 @@
 #import "OSSpinLockDemo.h"
 #import "OSUnfairLockDemo.h"
 #import "MutexDemo.h"
+#import "Mutex_recursive_demo.h"
 
 @interface ViewController ()
 
@@ -22,14 +23,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NoLockCode *code = [[MutexDemo alloc] init];
+    NoLockCode *code = [[Mutex_recursive_demo alloc] init];
     [code testCode];
-    
-    
-    NSLock;
-    NSRecursiveLock;
-    NSConditionLock;
-
+    [code otherTest];
 }
 
 
