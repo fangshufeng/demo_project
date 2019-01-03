@@ -21,6 +21,7 @@
 		8DCAB32C21D36CF0005EF6D8 /* LockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB32B21D36CF0005EF6D8 /* LockUITests.m */; };
 		8DCAB33B21D37B6D005EF6D8 /* NoLockCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB33A21D37B6D005EF6D8 /* NoLockCode.m */; };
 		8DCAB33F21D380A4005EF6D8 /* OSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB33E21D380A4005EF6D8 /* OSSpinLockDemo.m */; };
+		8DEF5FC321DE02980033EE71 /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF5FC221DE02980033EE71 /* NSLockDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		8DCAB33C21D37EF5005EF6D8 /* NoLockCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoLockCode.h; sourceTree = "<group>"; };
 		8DCAB33D21D380A4005EF6D8 /* OSSpinLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo.h; sourceTree = "<group>"; };
 		8DCAB33E21D380A4005EF6D8 /* OSSpinLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo.m; sourceTree = "<group>"; };
+		8DEF5FC121DE02980033EE71 /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
+		8DEF5FC221DE02980033EE71 /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				8D21C80521D4B42400F50969 /* Mutex_recursive_demo.m */,
 				8D21C80721D4B95E00F50969 /* Mutex_pthread_waite_demo.h */,
 				8D21C80821D4B95E00F50969 /* Mutex_pthread_waite_demo.m */,
+				8DEF5FC121DE02980033EE71 /* NSLockDemo.h */,
+				8DEF5FC221DE02980033EE71 /* NSLockDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */,
 				8DCAB33F21D380A4005EF6D8 /* OSSpinLockDemo.m in Sources */,
 				8D21C80021D4736F00F50969 /* OSUnfairLockDemo.m in Sources */,
+				8DEF5FC321DE02980033EE71 /* NSLockDemo.m in Sources */,
 				8DCAB33B21D37B6D005EF6D8 /* NoLockCode.m in Sources */,
 				8D21C80921D4B95E00F50969 /* Mutex_pthread_waite_demo.m in Sources */,
 				8DCAB31721D36CF0005EF6D8 /* main.m in Sources */,

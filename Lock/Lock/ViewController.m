@@ -14,6 +14,7 @@
 #import "MutexDemo.h"
 #import "Mutex_recursive_demo.h"
 #import "Mutex_pthread_waite_demo.h"
+#import "NSLockDemo.h"
 
 @interface ViewController ()
 
@@ -24,12 +25,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NoLockCode *code = [[Mutex_pthread_waite_demo alloc] init];
+    NoLockCode *code = [[NSLockDemo alloc] init];
     [code testCode];
-    [code otherTest];
+//    [code otherTest];
 }
-
-
 
 
 @end
