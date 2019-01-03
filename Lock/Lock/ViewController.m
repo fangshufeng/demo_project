@@ -16,6 +16,7 @@
 #import "Mutex_pthread_waite_demo.h"
 #import "NSLockDemo.h"
 #import "NSConditionDemo.h"
+#import "NSConditionLockDemo.h"
 
 @interface ViewController ()
 
@@ -26,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NoLockCode *code = [[NSConditionDemo alloc] init];
+    NoLockCode *code = [[NSConditionLockDemo alloc] init];
 //    [code testCode];
     [code otherTest];
 }
