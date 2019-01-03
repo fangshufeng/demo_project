@@ -17,6 +17,7 @@
 #import "NSLockDemo.h"
 #import "NSConditionDemo.h"
 #import "NSConditionLockDemo.h"
+#import "NSRecursiveLockDemo.h"
 
 @interface ViewController ()
 
@@ -27,7 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NoLockCode *code = [[NSConditionLockDemo alloc] init];
+    NoLockCode *code = [[NSRecursiveLockDemo alloc] init];
 //    [code testCode];
     [code otherTest];
 }

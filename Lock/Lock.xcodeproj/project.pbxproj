@@ -11,6 +11,7 @@
 		8D21C80321D481C700F50969 /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C80221D481C700F50969 /* MutexDemo.m */; };
 		8D21C80621D4B42400F50969 /* Mutex_recursive_demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C80521D4B42400F50969 /* Mutex_recursive_demo.m */; };
 		8D21C80921D4B95E00F50969 /* Mutex_pthread_waite_demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C80821D4B95E00F50969 /* Mutex_pthread_waite_demo.m */; };
+		8D6E2ECA21DE06BC0065F735 /* NSRecursiveLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E2EC921DE06BC0065F735 /* NSRecursiveLockDemo.m */; };
 		8DA5DD7021DE045100AC4A8A /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5DD6F21DE045100AC4A8A /* NSConditionLockDemo.m */; };
 		8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30821D36CEF005EF6D8 /* AppDelegate.m */; };
 		8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30B21D36CEF005EF6D8 /* ViewController.m */; };
@@ -52,6 +53,8 @@
 		8D21C80521D4B42400F50969 /* Mutex_recursive_demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mutex_recursive_demo.m; sourceTree = "<group>"; };
 		8D21C80721D4B95E00F50969 /* Mutex_pthread_waite_demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mutex_pthread_waite_demo.h; sourceTree = "<group>"; };
 		8D21C80821D4B95E00F50969 /* Mutex_pthread_waite_demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mutex_pthread_waite_demo.m; sourceTree = "<group>"; };
+		8D6E2EC821DE06BC0065F735 /* NSRecursiveLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSRecursiveLockDemo.h; sourceTree = "<group>"; };
+		8D6E2EC921DE06BC0065F735 /* NSRecursiveLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRecursiveLockDemo.m; sourceTree = "<group>"; };
 		8DA5DD6E21DE045100AC4A8A /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
 		8DA5DD6F21DE045100AC4A8A /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
 		8DCAB30421D36CEF005EF6D8 /* Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +158,8 @@
 				8DE62F7421DE036000612FA4 /* NSConditionDemo.m */,
 				8DA5DD6E21DE045100AC4A8A /* NSConditionLockDemo.h */,
 				8DA5DD6F21DE045100AC4A8A /* NSConditionLockDemo.m */,
+				8D6E2EC821DE06BC0065F735 /* NSRecursiveLockDemo.h */,
+				8D6E2EC921DE06BC0065F735 /* NSRecursiveLockDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				8DCAB33B21D37B6D005EF6D8 /* NoLockCode.m in Sources */,
 				8D21C80921D4B95E00F50969 /* Mutex_pthread_waite_demo.m in Sources */,
 				8DCAB31721D36CF0005EF6D8 /* main.m in Sources */,
+				8D6E2ECA21DE06BC0065F735 /* NSRecursiveLockDemo.m in Sources */,
 				8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */,
 				8D21C80621D4B42400F50969 /* Mutex_recursive_demo.m in Sources */,
 			);
