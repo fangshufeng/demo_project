@@ -13,6 +13,7 @@
 		8D21C80921D4B95E00F50969 /* Mutex_pthread_waite_demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21C80821D4B95E00F50969 /* Mutex_pthread_waite_demo.m */; };
 		8D6E2ECA21DE06BC0065F735 /* NSRecursiveLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E2EC921DE06BC0065F735 /* NSRecursiveLockDemo.m */; };
 		8D88DC2F21DF05870085B2A8 /* SynchronizeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D88DC2E21DF05870085B2A8 /* SynchronizeDemo.m */; };
+		8DA09C5621E0B44000FA83D4 /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA09C5521E0B44000FA83D4 /* SerialQueueDemo.m */; };
 		8DA5DD7021DE045100AC4A8A /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5DD6F21DE045100AC4A8A /* NSConditionLockDemo.m */; };
 		8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30821D36CEF005EF6D8 /* AppDelegate.m */; };
 		8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30B21D36CEF005EF6D8 /* ViewController.m */; };
@@ -58,6 +59,8 @@
 		8D6E2EC921DE06BC0065F735 /* NSRecursiveLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRecursiveLockDemo.m; sourceTree = "<group>"; };
 		8D88DC2D21DF05870085B2A8 /* SynchronizeDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynchronizeDemo.h; sourceTree = "<group>"; };
 		8D88DC2E21DF05870085B2A8 /* SynchronizeDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronizeDemo.m; sourceTree = "<group>"; };
+		8DA09C5421E0B44000FA83D4 /* SerialQueueDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialQueueDemo.h; sourceTree = "<group>"; };
+		8DA09C5521E0B44000FA83D4 /* SerialQueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialQueueDemo.m; sourceTree = "<group>"; };
 		8DA5DD6E21DE045100AC4A8A /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
 		8DA5DD6F21DE045100AC4A8A /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
 		8DCAB30421D36CEF005EF6D8 /* Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +168,8 @@
 				8D6E2EC921DE06BC0065F735 /* NSRecursiveLockDemo.m */,
 				8D88DC2D21DF05870085B2A8 /* SynchronizeDemo.h */,
 				8D88DC2E21DF05870085B2A8 /* SynchronizeDemo.m */,
+				8DA09C5421E0B44000FA83D4 /* SerialQueueDemo.h */,
+				8DA09C5521E0B44000FA83D4 /* SerialQueueDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 				8DCAB31721D36CF0005EF6D8 /* main.m in Sources */,
 				8D6E2ECA21DE06BC0065F735 /* NSRecursiveLockDemo.m in Sources */,
 				8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */,
+				8DA09C5621E0B44000FA83D4 /* SerialQueueDemo.m in Sources */,
 				8D21C80621D4B42400F50969 /* Mutex_recursive_demo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
