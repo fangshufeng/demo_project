@@ -20,6 +20,7 @@
 #import "NSRecursiveLockDemo.h"
 #import "SynchronizeDemo.h"
 #import "SerialQueueDemo.h"
+#import "SemaphoreDemo.h"
 
 @interface ViewController ()
 
@@ -30,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NoLockCode *code = [[SerialQueueDemo alloc] init];
+    NoLockCode *code = [[SemaphoreDemo alloc] init];
     [code testCode];
 //    [code otherTest];
 }

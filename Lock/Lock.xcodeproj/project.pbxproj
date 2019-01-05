@@ -15,6 +15,7 @@
 		8D88DC2F21DF05870085B2A8 /* SynchronizeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D88DC2E21DF05870085B2A8 /* SynchronizeDemo.m */; };
 		8DA09C5621E0B44000FA83D4 /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA09C5521E0B44000FA83D4 /* SerialQueueDemo.m */; };
 		8DA5DD7021DE045100AC4A8A /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5DD6F21DE045100AC4A8A /* NSConditionLockDemo.m */; };
+		8DAB7C3021E0B66400706903 /* SemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB7C2F21E0B66400706903 /* SemaphoreDemo.m */; };
 		8DCAB30921D36CEF005EF6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30821D36CEF005EF6D8 /* AppDelegate.m */; };
 		8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCAB30B21D36CEF005EF6D8 /* ViewController.m */; };
 		8DCAB30F21D36CEF005EF6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAB30D21D36CEF005EF6D8 /* Main.storyboard */; };
@@ -63,6 +64,8 @@
 		8DA09C5521E0B44000FA83D4 /* SerialQueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialQueueDemo.m; sourceTree = "<group>"; };
 		8DA5DD6E21DE045100AC4A8A /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
 		8DA5DD6F21DE045100AC4A8A /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
+		8DAB7C2E21E0B66400706903 /* SemaphoreDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SemaphoreDemo.h; sourceTree = "<group>"; };
+		8DAB7C2F21E0B66400706903 /* SemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemo.m; sourceTree = "<group>"; };
 		8DCAB30421D36CEF005EF6D8 /* Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCAB30721D36CEF005EF6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DCAB30821D36CEF005EF6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -170,6 +173,8 @@
 				8D88DC2E21DF05870085B2A8 /* SynchronizeDemo.m */,
 				8DA09C5421E0B44000FA83D4 /* SerialQueueDemo.h */,
 				8DA09C5521E0B44000FA83D4 /* SerialQueueDemo.m */,
+				8DAB7C2E21E0B66400706903 /* SemaphoreDemo.h */,
+				8DAB7C2F21E0B66400706903 /* SemaphoreDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 				8D21C80321D481C700F50969 /* MutexDemo.m in Sources */,
 				8D88DC2F21DF05870085B2A8 /* SynchronizeDemo.m in Sources */,
 				8DE62F7521DE036000612FA4 /* NSConditionDemo.m in Sources */,
+				8DAB7C3021E0B66400706903 /* SemaphoreDemo.m in Sources */,
 				8DCAB30C21D36CEF005EF6D8 /* ViewController.m in Sources */,
 				8DCAB33F21D380A4005EF6D8 /* OSSpinLockDemo.m in Sources */,
 				8D21C80021D4736F00F50969 /* OSUnfairLockDemo.m in Sources */,
