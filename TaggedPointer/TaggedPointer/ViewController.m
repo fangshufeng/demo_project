@@ -43,6 +43,9 @@
 //#endif
 #import <malloc/malloc.h>
 #import <objc/runtime.h>
+
+extern uintptr_t objc_debug_taggedpointer_obfuscator;
+
 @interface ViewController ()
 
 @end
@@ -66,11 +69,13 @@
 //
     NSNumber *number2 = @238612371912312327;
     NSLog(@"number2 pointer is %p---%@", number2,[number2 class]);//0x227
-    //        [number2 intValue];
+    [number2 intValue];
 
     
-    NSLog(@"%zd--%zd",class_getInstanceSize([NSNumber class]),sizeof([NSNumber class]));
-    NSLog(@"%zd",malloc_size( (__bridge const void *)(number2)));
+//    NSLog(@"%zd--%zd",class_getInstanceSize([NSNumber class]),sizeof([NSNumber class]));
+//    NSLog(@"%zd",malloc_size( (__bridge const void *)(number2)));
+    
+    NSLog(@"dasdasd--%lld",objc_debug_taggedpointer_obfuscator);
 }
 
 
