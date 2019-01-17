@@ -1,0 +1,238 @@
+----------------------------------------------------------------------
+ File: Dsym_demo.app.DSYM/Contents/Resources/DWARF/Dsym_demo (arm64)
+----------------------------------------------------------------------
+.debug_line contents:
+----------------------------------------------------------------------
+debug_line[0x00000000]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include/__stddef_max_align_t.h
+
+----------------------------------------------------------------------
+debug_line[0x000000a6]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/fenv.h
+
+----------------------------------------------------------------------
+debug_line[0x00002394]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/objc/objc-sync.h
+
+----------------------------------------------------------------------
+debug_line[0x000025de]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/os/object.h
+
+----------------------------------------------------------------------
+debug_line[0x00002680]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/dispatch/time.h
+
+----------------------------------------------------------------------
+debug_line[0x00002923]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+
+----------------------------------------------------------------------
+debug_line[0x00002fee]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/MacTypes.h
+
+----------------------------------------------------------------------
+debug_line[0x00003436]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetworkErrors.h
+
+----------------------------------------------------------------------
+debug_line[0x000036b9]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/objc/NSObjCRuntime.h
+
+----------------------------------------------------------------------
+debug_line[0x000046e3]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/_types/_uint32_t.h
+
+----------------------------------------------------------------------
+debug_line[0x00004c58]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/_types/_uint32_t.h
+
+----------------------------------------------------------------------
+debug_line[0x00004f8e]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/objc/NSObjCRuntime.h
+
+----------------------------------------------------------------------
+debug_line[0x0000554c]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/objc/NSObjCRuntime.h
+
+----------------------------------------------------------------------
+debug_line[0x00005b3e]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CALayer.h
+
+----------------------------------------------------------------------
+debug_line[0x000061f9]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/_types/_uint32_t.h
+
+----------------------------------------------------------------------
+debug_line[0x000066ad]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h
+
+----------------------------------------------------------------------
+debug_line[0x000069a0]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/objc/NSObjCRuntime.h
+
+----------------------------------------------------------------------
+debug_line[0x00006fde]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFontTraits.h
+
+----------------------------------------------------------------------
+debug_line[0x000075b5]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/objc/NSObjCRuntime.h
+
+----------------------------------------------------------------------
+debug_line[0x00007827]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000000000000      1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/objc/NSObjCRuntime.h
+
+----------------------------------------------------------------------
+debug_line[0x000091c4]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x00000001000066a4     17 /Users/fangshufeng/Desktop/demo_project/Dsym_demo/Dsym_demo/ViewController.m
+0x00000001000066cc     18
+0x00000001000066f0     19
+0x00000001000066f4     19
+0x0000000100006700     20
+0x000000010000670c     22
+0x0000000100006720     23
+0x0000000100006744     24
+0x0000000100006748     24
+0x000000010000675c     25
+0x000000010000677c     26
+0x0000000100006798     26
+
+----------------------------------------------------------------------
+debug_line[0x00009287]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x0000000100006798     12 /Users/fangshufeng/Desktop/demo_project/Dsym_demo/Dsym_demo/main.m
+0x00000001000067b0     13
+0x00000001000067c4     14
+0x00000001000067c8     14
+0x00000001000067cc     14
+0x00000001000067e8     14
+0x00000001000067f8     14
+0x0000000100006814     14
+0x0000000100006824     15
+0x000000010000682c     16
+0x000000010000683c     16
+
+----------------------------------------------------------------------
+debug_line[0x0000931f]
+----------------------------------------------------------------------
+
+Address            Line   File
+------------------ ------ ------------------------------
+0x000000010000683c     18 /Users/fangshufeng/Desktop/demo_project/Dsym_demo/Dsym_demo/AppDelegate.m
+0x0000000100006890     21
+0x000000010000689c      0
+0x00000001000068a4     21
+0x00000001000068c4     24
+0x00000001000068f8     27
+0x0000000100006910     30
+0x0000000100006944     33
+0x000000010000695c     36
+0x0000000100006990     38
+0x00000001000069a8     41
+0x00000001000069dc     43
+0x00000001000069f4     46
+0x0000000100006a28     48
+0x0000000100006a40     13 /Users/fangshufeng/Desktop/demo_project/Dsym_demo/Dsym_demo/AppDelegate.h
+0x0000000100006a54     13
+0x0000000100006a6c     13
+0x0000000100006a8c      0
+0x0000000100006a90      0
+0x0000000100006a94      0
+0x0000000100006a98      0
+0x0000000100006a9c      0
+0x0000000100006aa0      0
+0x0000000100006aa4      0
+0x0000000100006aa8      0
+0x0000000100006aac     13
+0x0000000100006ab8     15 /Users/fangshufeng/Desktop/demo_project/Dsym_demo/Dsym_demo/AppDelegate.m
+0x0000000100006ad8     15
+0x0000000100006afc     15
+
+
