@@ -34,6 +34,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8D09751E21F205C400BC5F39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8DD4786F21EED93800170C4B /* Dsym_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dsym_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD4787221EED93800170C4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +91,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D09751F21F206C400BC5F39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DD4786621EED93800170C4B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,7 @@
 				8DD4788A21EED93900170C4B /* Dsym_demoTests */,
 				8DD4789521EED93900170C4B /* Dsym_demoUITests */,
 				8DD4787021EED93800170C4B /* Products */,
+				8D09751F21F206C400BC5F39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +163,7 @@
 				8DD4786B21EED93800170C4B /* Sources */,
 				8DD4786C21EED93800170C4B /* Frameworks */,
 				8DD4786D21EED93800170C4B /* Resources */,
+				8D09751E21F205C400BC5F39 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -438,6 +460,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = F7SF2U92CF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Dsym_demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +483,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = F7SF2U92CF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Dsym_demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

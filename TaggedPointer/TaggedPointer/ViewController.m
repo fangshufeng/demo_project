@@ -76,7 +76,7 @@ extern uintptr_t objc_debug_taggedpointer_obfuscator;
 //    NSLog(@"%zd",malloc_size( (__bridge const void *)(number2)));
     
     NSLog(@"dasdasd--%lld",objc_debug_taggedpointer_obfuscator);
+    
 }
-
 
 @end
