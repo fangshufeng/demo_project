@@ -13,9 +13,17 @@ using namespace std;
 
 struct Animal {
     int m_sex;
-    virtual void run () {
+     void run () {
         cout << "Animal::run" << endl;
     }
+    Animal() {
+        cout << "Animal::Animal()" << endl;
+    }
+   virtual ~Animal() {
+        cout << "Animal::~Animal()" << endl;
+    }
+    
+    virtual void run2() = 0;
 };
 
 struct Dog : public Animal {
@@ -23,12 +31,21 @@ struct Dog : public Animal {
     void run () {
         cout << "Dog::run" << endl;
     }
+    Dog() {
+        cout << "Dog::Dog()" << endl;
+    }
+    ~Dog() {
+        cout << "Dog::~Dog()" << endl;
+    }
+    
+    void run2() {};
 };
 
 int main(int argc, const char * argv[]) {
 
     Animal *dog = new Dog;
-    dog->run();
+    delete dog;
+    
     getchar();
     return 0;
 }
