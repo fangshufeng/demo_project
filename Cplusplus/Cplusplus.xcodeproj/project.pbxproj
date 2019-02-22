@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8D2E161F221D3807003A9D4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E161E221D3807003A9D4F /* main.cpp */; };
+		8D4FD302221E7F920015D610 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D4FD301221E7F920015D610 /* main.cpp */; };
 		8DEC9F2021F56EA90058316A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC9F1F21F56EA90058316A /* main.cpp */; };
 		8DEC9F2821F570370058316A /* Test1.c in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC9F2721F570370058316A /* Test1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8D2E161A221D3807003A9D4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8D4FD2FD221E7F920015D610 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -36,6 +46,8 @@
 /* Begin PBXFileReference section */
 		8D2E161C221D3807003A9D4F /* Inherit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inherit; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2E161E221D3807003A9D4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8D4FD2FF221E7F920015D610 /* 菱形继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "菱形继承"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4FD301221E7F920015D610 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8DEC9F1C21F56EA90058316A /* Cplusplus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cplusplus; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEC9F1F21F56EA90058316A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8DEC9F2621F570370058316A /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
@@ -44,6 +56,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8D2E1619221D3807003A9D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4FD2FC221E7F920015D610 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,11 +87,20 @@
 			path = Inherit;
 			sourceTree = "<group>";
 		};
+		8D4FD300221E7F920015D610 /* 菱形继承 */ = {
+			isa = PBXGroup;
+			children = (
+				8D4FD301221E7F920015D610 /* main.cpp */,
+			);
+			path = "菱形继承";
+			sourceTree = "<group>";
+		};
 		8DEC9F1321F56EA90058316A = {
 			isa = PBXGroup;
 			children = (
 				8DEC9F1E21F56EA90058316A /* Cplusplus */,
 				8D2E161D221D3807003A9D4F /* Inherit */,
+				8D4FD300221E7F920015D610 /* 菱形继承 */,
 				8DEC9F1D21F56EA90058316A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +110,7 @@
 			children = (
 				8DEC9F1C21F56EA90058316A /* Cplusplus */,
 				8D2E161C221D3807003A9D4F /* Inherit */,
+				8D4FD2FF221E7F920015D610 /* 菱形继承 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +145,23 @@
 			productReference = 8D2E161C221D3807003A9D4F /* Inherit */;
 			productType = "com.apple.product-type.tool";
 		};
+		8D4FD2FE221E7F920015D610 /* 菱形继承 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4FD305221E7F920015D610 /* Build configuration list for PBXNativeTarget "菱形继承" */;
+			buildPhases = (
+				8D4FD2FB221E7F920015D610 /* Sources */,
+				8D4FD2FC221E7F920015D610 /* Frameworks */,
+				8D4FD2FD221E7F920015D610 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "菱形继承";
+			productName = "菱形继承";
+			productReference = 8D4FD2FF221E7F920015D610 /* 菱形继承 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8DEC9F1B21F56EA90058316A /* Cplusplus */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DEC9F2321F56EA90058316A /* Build configuration list for PBXNativeTarget "Cplusplus" */;
@@ -145,6 +191,9 @@
 					8D2E161B221D3807003A9D4F = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8D4FD2FE221E7F920015D610 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8DEC9F1B21F56EA90058316A = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -164,6 +213,7 @@
 			targets = (
 				8DEC9F1B21F56EA90058316A /* Cplusplus */,
 				8D2E161B221D3807003A9D4F /* Inherit */,
+				8D4FD2FE221E7F920015D610 /* 菱形继承 */,
 			);
 		};
 /* End PBXProject section */
@@ -174,6 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D2E161F221D3807003A9D4F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4FD2FB221E7F920015D610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4FD302221E7F920015D610 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +256,22 @@
 			name = Debug;
 		};
 		8D2E1621221D3807003A9D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D4FD303221E7F920015D610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D4FD304221E7F920015D610 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -343,6 +417,15 @@
 			buildConfigurations = (
 				8D2E1620221D3807003A9D4F /* Debug */,
 				8D2E1621221D3807003A9D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4FD305221E7F920015D610 /* Build configuration list for PBXNativeTarget "菱形继承" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4FD303221E7F920015D610 /* Debug */,
+				8D4FD304221E7F920015D610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
