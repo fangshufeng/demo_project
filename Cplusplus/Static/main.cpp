@@ -26,6 +26,8 @@ class Student {
     static Student *stu;
     Student() {};
     
+    Student(const Student &stu) {}
+    
 public:
    static Student * sharedInstance() {
        if (stu == NULL) {
@@ -47,7 +49,10 @@ int main(int argc, const char * argv[]) {
     Student *s2 = Student::sharedInstance();
     Student *s3 = Student::sharedInstance();
     
-    cout << s << "," << s1 << "," << s2 << "," << s3 << endl;
+    
+//    Student s4 = *s3;
+    
+//    cout << s << "," << s1 << "," << s2 << "," << s3 << ","<< &s4 << endl;
     
 //    Person *p  = new Person();
 //    p->m_age = 30;
