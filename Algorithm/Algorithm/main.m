@@ -6,11 +6,20 @@
 //  Copyright © 2019 fangshufeng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
 
-int main(int argc, char * argv[]) {
+#import "QuickSort.h"
+
+
+
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        
+        
+        NSMutableArray *arr = [[NSMutableArray alloc] initWithObjects:@57, @68,@59,@52,@72,@28,@96,@33,@24,nil];
+        [QuickSort quickSort:arr lowLoc:0 highLoc:(int)arr.count - 1];
+       
+        NSLog(@"----%@",arr);
     }
+    return 0;
 }
