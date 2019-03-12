@@ -1,5 +1,5 @@
 //
-//  QuickSort.h
+//  Sort.h
 //  Algorithm
 //
 //  Created by fangshufeng on 2019/3/7.
@@ -10,8 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QuickSort : NSObject
+@interface Sort : NSObject
 
++ (void)bubbleSort:(NSMutableArray *)sortArr;
+
+/**
+ 快速排序
+
+ @param sortArr 排序数组 可变
+ @param lowLoc 开始位置
+ @param hightLoc 结束位置
+ */
 + (void)quickSort:(NSMutableArray *)sortArr lowLoc:(int)lowLoc highLoc:(int)hightLoc;
 
 @end
