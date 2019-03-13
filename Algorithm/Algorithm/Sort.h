@@ -23,6 +23,13 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)quickSort:(NSMutableArray *)sortArr lowLoc:(int)lowLoc highLoc:(int)hightLoc;
 
+/**
+ 堆排序
+
+ @param sortArr 需要排序的数组 
+ */
++ (void)heapSort:(NSMutableArray *)sortArr;
+
 @end
 
 NS_ASSUME_NONNULL_END
