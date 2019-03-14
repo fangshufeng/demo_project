@@ -10,6 +10,8 @@
 
 @implementation Sort
 
+#pragma mark -bubbleSort
+
 + (void)bubbleSort:(NSMutableArray *)sortArr {
     
     NSUInteger length = sortArr.count;
@@ -27,6 +29,39 @@
         
     }
 }
+
+#pragma mark - selectionSort
+
++ (void)selectionSort:(NSMutableArray *)sortArr {
+    
+    [self __scanItemThenExchange:sortArr fromIndex:0];
+
+}
+
++ (void)__scanItemThenExchange:(NSMutableArray *)sortArr fromIndex:(NSInteger)fromIndex {
+    
+    if (fromIndex == sortArr.count) {
+        return;
+    }
+    
+    NSInteger minIndex = fromIndex;
+    for (NSInteger i = fromIndex; i < sortArr.count; i++) {
+        
+        if ([sortArr[i] integerValue] < [sortArr[minIndex] integerValue]) {
+            minIndex = i;
+        }
+    }
+    
+    if (minIndex != fromIndex) {
+        [self swapValue:sortArr fromIndex:(int)minIndex toIndex:(int)fromIndex];
+    }
+    
+    fromIndex ++;
+    [self __scanItemThenExchange:sortArr fromIndex:fromIndex];
+
+}
+
+#pragma mark - quickSort
 
 + (void)quickSort:(NSMutableArray *)sortArr lowLoc:(int)lowLoc highLoc:(int)hightLoc {
     
@@ -62,6 +97,8 @@
     [self quickSort:sortArr lowLoc:i+1 highLoc:hightLoc];
     
 }
+
+#pragma mark - heapSort
 
 + (void)heapSort:(NSMutableArray *)sortArr {
 

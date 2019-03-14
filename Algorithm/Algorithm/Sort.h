@@ -12,7 +12,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Sort : NSObject
 
+
+/**
+ 冒泡排序
+
+ @param sortArr 排序的数组
+ */
 + (void)bubbleSort:(NSMutableArray *)sortArr;
+
+
+/**
+ 选择排序
+
+ @param sortArr 需要排序的数组
+ */
++ (void)selectionSort:(NSMutableArray *)sortArr;
 
 /**
  快速排序
