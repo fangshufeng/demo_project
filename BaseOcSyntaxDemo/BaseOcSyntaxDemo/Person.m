@@ -10,11 +10,19 @@
 
 @implementation Person
 
-@synthesize name = name;
-//
-- (void)console {
-    NSLog(@"%@",name);
-//    NSLog(@"%@",_name);
+- (instancetype)init {
+    if (self = [super init]) {
+        printf("person-init\n");
+    }
+    return self;
+}
+
+- (void)dealloc {
+    printf("Person dealloc\n");
+}
+
++ (void)classFunction {
+    NSLog(@"========");
 }
 
 @end

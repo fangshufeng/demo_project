@@ -1,8 +1,8 @@
 //
-//  Person.h
+//  Father.h
 //  BaseOcSyntaxDemo
 //
-//  Created by fangshufeng on 2019/3/8.
+//  Created by fangshufeng on 2019/3/15.
 //  Copyright © 2019 fangshufeng. All rights reserved.
 //
 
@@ -10,12 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Person : NSObject
-
-@property (nonatomic, copy) NSString *name;
-
-
-+ (void)classFunction;
+@interface Father : NSObject
 
 @end
 

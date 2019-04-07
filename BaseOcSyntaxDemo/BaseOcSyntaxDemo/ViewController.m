@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Son.h"
 
 @interface ViewController ()
 
@@ -14,9 +15,24 @@
 
 @implementation ViewController
 
++ (void)load {
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Son *son  = [[Son alloc] init];
+    
+    
+    
+        
+}
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    abort();
+//    exit(0);
 }
 
 

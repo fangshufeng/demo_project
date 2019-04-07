@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D7C63B82230F88700B9FD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C63B72230F88700B9FD37 /* main.m */; };
 		8D7C6404223115D400B9FD37 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C6403223115D400B9FD37 /* Sort.m */; };
+		8D7C644E22379D0600B9FD37 /* Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C644D22379D0600B9FD37 /* Sum.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		8D7C63B72230F88700B9FD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D7C6402223115D400B9FD37 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
 		8D7C6403223115D400B9FD37 /* Sort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		8D7C644C22379D0500B9FD37 /* Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sum.h; sourceTree = "<group>"; };
+		8D7C644D22379D0600B9FD37 /* Sum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sum.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				8D7C63B72230F88700B9FD37 /* main.m */,
+				8D7C644C22379D0500B9FD37 /* Sum.h */,
+				8D7C644D22379D0600B9FD37 /* Sum.m */,
 				8D7C6402223115D400B9FD37 /* Sort.h */,
 				8D7C6403223115D400B9FD37 /* Sort.m */,
 			);
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7C644E22379D0600B9FD37 /* Sum.m in Sources */,
 				8D7C6404223115D400B9FD37 /* Sort.m in Sources */,
 				8D7C63B82230F88700B9FD37 /* main.m in Sources */,
 			);

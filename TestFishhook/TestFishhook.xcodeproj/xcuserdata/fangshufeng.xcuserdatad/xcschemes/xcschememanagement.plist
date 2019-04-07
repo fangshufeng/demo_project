@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BaseOcSyntaxDemo.xcscheme_^#shared#^_</key>
+		<key>FooDyldStubBinder.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>TestFishhook.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +17,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8D7C641022325BF300B9FD37</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8D7C642822325BF400B9FD37</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8D7C643322325BF400B9FD37</key>
+		<key>8DE4E708224382010095D060</key>
 		<dict>
 			<key>primary</key>
 			<true/>
