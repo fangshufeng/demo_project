@@ -30,11 +30,16 @@
     }
 }
 
-#pragma mark - selectionSort
+
+#pragma mark - selectionSort - begin
 
 + (void)selectionSort:(NSMutableArray *)sortArr {
     
+    // 1、递归法
     [self __scanItemThenExchange:sortArr fromIndex:0];
+    
+    // 2.迭代法
+//    [self __iterationArr:sortArr];
 
 }
 
@@ -60,6 +65,29 @@
     [self __scanItemThenExchange:sortArr fromIndex:fromIndex];
 
 }
+
++ (void)__iterationArr:(NSMutableArray *)sortArr {
+    int minIndex  = 0;
+    int beginIndex = 0;
+    
+    while (beginIndex < sortArr.count) {
+        
+        for (int i = beginIndex ; i < sortArr.count; i++) {
+            if ([sortArr[i] intValue] < [sortArr[minIndex] intValue]) {
+                minIndex = i;
+            }
+        }
+        
+        if (beginIndex != minIndex) {
+            [self swapValue:sortArr fromIndex:beginIndex toIndex:minIndex];
+        }
+        
+        beginIndex++;
+        minIndex = beginIndex;
+    }
+}
+
+#pragma mark - selectionSort - end
 
 #pragma mark - quickSort
 
