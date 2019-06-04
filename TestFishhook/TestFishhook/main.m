@@ -61,6 +61,7 @@ int main(int argc, const char * argv[]) {
 //        strlen(str);
 
         
+        CGAffineTransformScale(<#CGAffineTransform t#>, <#CGFloat sx#>, <#CGFloat sy#>)
         
     }
     return 0;
