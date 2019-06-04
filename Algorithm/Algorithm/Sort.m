@@ -89,6 +89,49 @@
 
 #pragma mark - selectionSort - end
 
+#pragma mark - insertionSort - start
+
++ (void)insertionSort:(NSMutableArray *)sortArr {
+    
+    NSMutableArray  *sortedArr = [NSMutableArray arrayWithCapacity:sortArr.count];
+    
+    for (int i = 0 ; i < sortArr.count; i++) {
+        
+        int currentV = [sortArr[i] intValue];
+     
+        if (sortedArr.count == 0) {
+            [sortedArr addObject:@(currentV)];
+        } else {
+            
+            BOOL isHit = NO;
+            
+            for (int j = 0; j < sortedArr.count; j++) {
+                
+                int lastIndex = (int)sortedArr.count - 1 - j;
+                
+                int v = [sortedArr[lastIndex] intValue];
+                if (currentV >= v) {
+                    [sortedArr insertObject:@(currentV) atIndex:lastIndex+1];
+                    isHit = YES;
+                    break;
+                }
+            }
+            if (isHit == NO ) {
+                [sortedArr insertObject:@(currentV) atIndex:0];
+            }
+
+        }
+    }
+    
+    sortArr = sortedArr;
+    
+    NSLog(@"----dasdas===%@",sortedArr);
+}
+
+#pragma mark - insertionSort - end
+
+
+
 #pragma mark - quickSort
 
 + (void)quickSort:(NSMutableArray *)sortArr lowLoc:(int)lowLoc highLoc:(int)hightLoc {

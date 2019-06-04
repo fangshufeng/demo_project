@@ -24,6 +24,12 @@ void testBubbleSort() {
       NSLog(@"----%@",arr);
 }
 
+void testInsertionSort() {
+    NSMutableArray *arr = [[NSMutableArray alloc] initWithObjects:@57, @68,@59,@52,@72,@28,@96,@33,@24,@72,nil];
+    [Sort insertionSort:arr];
+    NSLog(@"----%@",arr);
+}
+
 void testSelectionSort() {
     NSMutableArray *arr = [[NSMutableArray alloc] initWithObjects:@57, @68,@59,@52,@72,@28,@96,@33,@24,nil];
     [Sort selectionSort:arr];
@@ -43,7 +49,8 @@ int main(int argc, const char * argv[]) {
 //        testQuckSort();
 //        testBubbleSort();
 //        testHeapSort();
-        testSelectionSort();
+//        testSelectionSort();
+        testInsertionSort();
      
 //        NSLog(@"--%@",[Sum sumWithArr:@[@2,@7,@11,@15] result:9]);
 //        NSLog(@"--%@",[Sum sumWithArr:@[@2,@7,@11,@15] result:2]);

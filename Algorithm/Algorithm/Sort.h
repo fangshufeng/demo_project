@@ -28,6 +28,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)selectionSort:(NSMutableArray *)sortArr;
 
+
+/**
+ 插入排序
+
+ @param sortArr 需要排序的数组
+ */
++ (void)insertionSort:(NSMutableArray *)sortArr;
+
 /**
  快速排序
 
