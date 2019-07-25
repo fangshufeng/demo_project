@@ -52,6 +52,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)heapSort:(NSMutableArray *)sortArr;
 
++ (void)shellSort:(NSMutableArray *)sortArr;
+
 @end
 
 NS_ASSUME_NONNULL_END

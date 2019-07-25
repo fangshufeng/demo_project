@@ -268,6 +268,42 @@
     
 }
 
++ (void)shellSort:(NSMutableArray *)sortArr {
+
+
+//    for (NSUInteger gap = sortArr.count / 2; gap > 0; gap /= 2) {
+//
+//        for (NSUInteger i = gap; i < sortArr.count; i++) {
+//           NSNumber *temp = sortArr[i];
+//            NSUInteger j;
+//            for (j = i-gap; j >= 0 && [sortArr[j] integerValue]> [temp integerValue]; j-=gap) {
+//                sortArr[j+gap] = sortArr[j];
+//            }
+//            sortArr[j+gap] = temp;
+//        }
+//    }
+    
+    //总长度
+    int n = (int)sortArr.count;
+    //最外层for循环确定----步长的个数 <折半直至为步长等于 1 >
+    for (int gap = n / 2; gap > 0; gap /= 2){
+//        NSLog(@"步长----%d", gap);
+        //确定以步长为间隔的一对数字的后一个.
+        for (int i = gap; i < n; i++){
+            NSLog(@"第 %d 位 与第 %d 位对比", i - gap, i);
+            //找到成对的前一个, 加上判断<从第一位开始><升序降序>, j -= gap, 小组内排序
+            for (int j = i - gap; j >= 0 && [sortArr[j] integerValue]> [sortArr[j + gap] integerValue]; j -= gap){
+                
+                //交换位
+                [sortArr exchangeObjectAtIndex:j withObjectAtIndex:(j+ gap)];
+            }
+        }
+    }
+//    NSLog(@"----%@", sortArr);
+    
+}
+
+
 + (void )swapValue:(NSMutableArray *)sortArr fromIndex:(int)fromIndex toIndex:(int)toIndex {
 
     NSNumber *tmp  = sortArr[fromIndex];
